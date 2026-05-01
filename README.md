@@ -1,5 +1,6 @@
 # RAT
 RAT - Radiology Automated Triage: AI-assisted prioritization of CT scans to accelerate detection of intracranial hemorrhage.
+Project Report: http://marquisedemaree.com
 ## Getting Started
 These instructions will help you run RAT locally for demo and evaluation.
 ### Prerequisites
