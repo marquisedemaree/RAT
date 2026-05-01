@@ -9,6 +9,7 @@ These instructions will help you run RAT locally for demo and evaluation.
 1. Clone the repository: `git clone https://github.com/marquisedemaree/RAT.git`
 2. Change the directory to RAT: `cd rat`
 3. Install dependencies: `pip install -r requirements.txt`
+4. Download assets: `python setup_demo.py`
 ## Usage
 Run the full RAT pipeline: `python main.py`
 This will:
