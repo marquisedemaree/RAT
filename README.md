@@ -1,5 +1,5 @@
 # RAT
-**RAT - Radiology Automated Triage:**<br>
+**RAT - Radiology Automated Triage**<br>
 AI-assisted prioritization of CT scans to accelerate detection of intracranial hemorrhage.
 
 Project Report: http://marquisedemaree.com
@@ -35,3 +35,6 @@ This will:
 - Medical Image Processing: Includes full DICOM preprocessing pipeline with Hounsfield Unit normalization  
 - Performance Evaluation: Compares FIFO vs RAT triage efficiency using clinically meaningful metrics  
 - Visualization Outputs: Generates triage charts and ranked scan tables for clear interpretation
+
+## File Structure Diagram
+<img width="500" height="620" alt="RAT_folder_structure" src="https://github.com/user-attachments/assets/ae6672be-b288-40fd-8777-616a63f5b838" />
