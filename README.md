@@ -14,8 +14,8 @@ These instructions will help you run RAT locally for demo and evaluation.
 2. Change the directory to RAT: `cd rat`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Download assets and unzip to the RAT folder:
-- https://github.com/marquisedemaree/RAT/releases/download/v1.0/data.zip
-- https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip
+    - https://github.com/marquisedemaree/RAT/releases/download/v1.0/data.zip
+    - https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip
 
 ## Usage
 Run the full RAT pipeline: `python main.py`<br>
