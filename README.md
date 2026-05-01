@@ -1,11 +1,14 @@
 # RAT
 RAT - Radiology Automated Triage: AI-assisted prioritization of CT scans to accelerate detection of intracranial hemorrhage.<br>
 Project Report: http://marquisedemaree.com
+
 ## Getting Started
 These instructions will help you run RAT locally for demo and evaluation.
+
 ### Prerequisites
 - Python 3.9+
 - pip
+
 ### Installation
 1. Clone the repository: `git clone https://github.com/marquisedemaree/RAT.git`
 2. Change the directory to RAT: `cd rat`
@@ -13,6 +16,7 @@ These instructions will help you run RAT locally for demo and evaluation.
 4. Download assets and unzip to the RAT folder:
 - https://github.com/marquisedemaree/RAT/releases/download/v1.0/data.zip
 - https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip
+
 ## Usage
 Run the full RAT pipeline: `python main.py`<br>
 
@@ -22,6 +26,7 @@ This will:
 3. Reorder scans by predicted risk  
 4. Evaluate triage performance  
 5. Generate output visualizations  
+
 ## Features
 - AI-Powered Triage: Uses a custom DenseNet121 model to estimate hemorrhage probability from CT scans  
 - Automated Workflow Optimization: Reorders scans to prioritize high-risk cases  
