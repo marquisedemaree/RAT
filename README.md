@@ -17,3 +17,9 @@ This will:
 3. Reorder scans by predicted risk  
 4. Evaluate triage performance  
 5. Generate output visualizations  
+## Features
+- AI-Powered Triage: Uses a custom DenseNet121 model to estimate hemorrhage probability from CT scans  
+- Automated Workflow Optimization: Reorders scans to prioritize high-risk cases  
+- Medical Image Processing: Includes full DICOM preprocessing pipeline with Hounsfield Unit normalization  
+- Performance Evaluation: Compares FIFO vs RAT triage efficiency using clinically meaningful metrics  
+- Visualization Outputs: Generates triage charts and ranked scan tables for clear interpretation
