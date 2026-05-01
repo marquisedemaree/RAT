@@ -1,6 +1,7 @@
 import ssl
 import certifi
 import urllib.request
+import requests
 
 url = "https://github.com/marquisedemaree/RAT/releases/download/v1.0/data.zip"
 out = "https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip"
@@ -27,11 +28,13 @@ DATA_ZIP = "data.zip"
 def download_file(url, output_path):
     print(f"⬇️  Downloading {url}...")
 
-    ssl_context = ssl.create_default_context(cafile=certifi.where())
+    response = requests.get(url, stream=True)
+    response.raise_for_status()
 
-    with urllib.request.urlopen(url, context=ssl_context) as response:
-        with open(output_path, "wb") as f:
-            f.write(response.read())
+    with open(output_path, "wb") as f:
+        for chunk in response.iter_content(chunk_size=8192):
+            if chunk:
+                f.write(chunk)
 
     print(f"✅ Saved to {output_path}")
 
