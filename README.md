@@ -14,7 +14,7 @@ These instructions will help you run RAT locally for demo and evaluation.
 - https://github.com/marquisedemaree/RAT/releases/download/v1.0/data.zip
 - https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip
 ## Usage
-Run the full RAT pipeline: `python main.py`
+Run the full RAT pipeline: `python main.py`<br>
 This will:
 1. Load demo CT scans  
 2. Run hemorrhage prediction using a DenseNet121 model  
