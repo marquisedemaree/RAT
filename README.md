@@ -12,7 +12,7 @@ These instructions will help you run RAT locally for demo and evaluation.
 - pip
 
 ### Installation
-From the Terminal:
+From the Terminal:<br>
     1. Clone the repository: `git clone https://github.com/marquisedemaree/RAT.git`
     2. Change the directory to RAT: `cd RAT`
     3. Create a virtual environment: `python3 -m venv .venv`
