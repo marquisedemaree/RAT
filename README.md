@@ -23,14 +23,19 @@ From the command line:<br>
     - https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip
 
 ## Usage
-Run the full RAT pipeline: `python main.py`<br>
+From the command line:<br>
+1. Create a Virtual Environment: `python3 -m venv .venv`
+2. Activate Virtual Environment:
+    - Mac: `python3 -m venv .venv`
+    - Windows: `.venv\Scripts\activate`
+3. Run the full RAT pipeline: `python main.py`<br>
 
 This will:
-1. Load demo CT scans  
-2. Run hemorrhage prediction using a DenseNet121 model  
-3. Reorder scans by predicted risk  
-4. Evaluate triage performance  
-5. Generate output visualizations  
+- Load demo CT scans  
+- Run hemorrhage prediction using a DenseNet121 model  
+- Reorder scans by predicted risk  
+- Evaluate triage performance  
+- Generate output visualizations  
 
 ## Features
 - AI-Powered Triage: Uses a custom DenseNet121 model to estimate hemorrhage probability from CT scans  
