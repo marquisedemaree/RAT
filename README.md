@@ -14,7 +14,7 @@ These instructions will help you run RAT locally for demo and evaluation.
 Not sure if you meet these requirements? Follow this guide: https://github.com/marquisedemaree/prerequisites/blob/main/README.md
 
 ### Installation
-From the Terminal:<br>
+From the command line:<br>
 1. Clone the repository: `git clone https://github.com/marquisedemaree/RAT.git`
 2. Change the directory to RAT: `cd RAT`
 3. Install dependencies: `pip install -r requirements.txt`
