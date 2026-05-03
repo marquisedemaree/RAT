@@ -15,19 +15,26 @@ Not sure if you meet these requirements? Follow this guide: https://github.com/m
 
 ### Installation
 From the command line:<br>
+
 1. Clone the repository: `git clone https://github.com/marquisedemaree/RAT.git`
+
 2. Change the directory to RAT: `cd RAT`
+
 3. Install dependencies: `pip install -r requirements.txt`
+
 4. Download assets and unzip to RAT folder:
     - https://github.com/marquisedemaree/RAT/releases/download/v1.0/data.zip
     - https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip
 
 ## Usage
 From the command line:<br>
+
 1. Create a Virtual Environment: `python3 -m venv .venv`
+
 2. Activate Virtual Environment:
     - Mac: `python3 -m venv .venv`
     - Windows: `.venv\Scripts\activate`
+
 3. Run the full RAT pipeline: `python main.py`<br>
 
 This will:
