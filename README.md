@@ -12,6 +12,8 @@ These instructions will help you run RAT locally for demo and evaluation.
 - Python 3.10+
 - pip
 
+Not sure if you meet these requirements? Follow this guide: https://github.com/marquisedemaree/prerequisites/blob/main/README.md
+
 ### Installation
 From the Terminal:<br>
 1. Clone the repository: `git clone https://github.com/marquisedemaree/RAT.git`
