@@ -4,18 +4,22 @@ AI-assisted prioritization of CT scans to accelerate detection of intracranial h
 
 Project Report: http://marquisedemaree.com
 
-## Getting Started
+## Quick Start
 These instructions will help you run RAT locally for demo and evaluation.
 
 ### Prerequisites
-- Python 3.9+
+- Python 3.10+
 - pip
 
 ### Installation
 1. Clone the repository: `git clone https://github.com/marquisedemaree/RAT.git`
-2. Change the directory to RAT: `cd rat`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Download assets and unzip to RAT folder:
+2. Change the directory to RAT: `cd RAT`
+3. Create a virtual environment: `python3 -m venv .venv`
+4. Activate the environment:
+    - Mac/Linux: `source .venv/bin/activate`
+    - Windows: `.venv\Scripts\activate`
+6. Install dependencies: `pip install -r requirements.txt`
+7. Download assets and unzip to RAT folder:
     - https://github.com/marquisedemaree/RAT/releases/download/v1.0/data.zip
     - https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip
 
