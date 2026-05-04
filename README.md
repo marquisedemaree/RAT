@@ -34,13 +34,13 @@ From the command line:
 ## Usage
 Run the full RAT pipeline: `python main.py`
 
-   This will:
-    
-    - Load demo CT scans 
-    - Run hemorrhage prediction using a DenseNet121 model  
-    - Reorder scans by predicted risk  
-    - Evaluate triage performance  
-    - Generate output visualizations  
+This will:
+
+- Load demo CT scans 
+- Run hemorrhage prediction using a DenseNet121 model  
+- Reorder scans by predicted risk  
+- Evaluate triage performance  
+- Generate output visualizations  
 
 ## Features
 - AI-Powered Triage: Uses a custom DenseNet121 model to estimate hemorrhage probability from CT scans  
