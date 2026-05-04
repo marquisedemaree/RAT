@@ -34,9 +34,9 @@ From the command line:<br>
 ## Usage
 From the command line:
 
-    Run the full RAT pipeline: `python main.py`<br>
+Run the full RAT pipeline: `python main.py`
 
-    This will:
+This will:
     - Load demo CT scans  
     - Run hemorrhage prediction using a DenseNet121 model  
     - Reorder scans by predicted risk  
