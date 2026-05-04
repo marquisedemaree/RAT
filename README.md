@@ -13,7 +13,7 @@ These instructions will help you run RAT locally for demo and evaluation.
 Not sure if you meet these requirements? Follow this guide: https://github.com/marquisedemaree/prerequisites/blob/main/README.md
 
 ### Installation
-From the command line:<br>
+From the command line:
 
 1. Clone the repository: `git clone https://github.com/marquisedemaree/RAT.git`
 
@@ -32,12 +32,11 @@ From the command line:<br>
     - https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip
 
 ## Usage
-From the command line:
-
 Run the full RAT pipeline: `python main.py`
 
-This will:
-    - Load demo CT scans  
+    This will:
+    
+    - Load demo CT scans 
     - Run hemorrhage prediction using a DenseNet121 model  
     - Reorder scans by predicted risk  
     - Evaluate triage performance  
