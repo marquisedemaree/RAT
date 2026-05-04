@@ -32,8 +32,9 @@ From the command line:<br>
     - https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip
 
 ## Usage
-From the command line:<br>
-Run the full RAT pipeline: `python main.py`<br>
+From the command line:
+
+    Run the full RAT pipeline: `python main.py`<br>
 
     This will:
     - Load demo CT scans  
