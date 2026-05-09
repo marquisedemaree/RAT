@@ -8,7 +8,7 @@ class RSNADenseNet121(nn.Module):
     Custom DenseNet121 model for RSNA hemorrhage classification.
     INPUT:      - x (torch.Tensor): Input image tensor. 
                     Shape: [batch_size, 3, 512, 512].
-    OUTPUT:     - logits (torch.Tensor): Raw output logits for each class wit
+    OUTPUT:     - logits (torch.Tensor): Raw output logits for each class
                     Shape: [batch_size, 6].
     '''
 
