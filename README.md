@@ -50,4 +50,5 @@ This will:
 - Visualization Outputs: Generates triage charts and ranked scan tables for clear interpretation
 
 ## File Structure Diagram
-<img width="500" height="620" alt="RAT_folder_structure" src="https://github.com/user-attachments/assets/ae6672be-b288-40fd-8777-616a63f5b838" />
+<img width="545" height="694" alt="file_structure" src="https://github.com/user-attachments/assets/67ef4cde-a1d6-4a28-a714-c5111fd89f8a" />
+
