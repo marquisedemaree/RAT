@@ -22,7 +22,7 @@ From the command line:
 3. Create a Virtual Environment: `python3 -m venv .venv`
 
 4. Activate Virtual Environment:
-    - Mac: `python3 -m venv .venv`
+    - Mac: `source .venv/bin/activate`
     - Windows: `.venv\Scripts\activate` 
 
 5. Install dependencies: `pip install -r requirements.txt`
