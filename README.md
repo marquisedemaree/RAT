@@ -27,7 +27,7 @@ From the command line:
 
 5. Install dependencies: `pip install -r requirements.txt`
 
-6. Download assets and unzip to RAT folder:
+6. Download assets and extract to RAT folder:
     - https://github.com/marquisedemaree/RAT/releases/download/v1.0/data.zip
     - https://github.com/marquisedemaree/RAT/releases/download/v1.0/models.zip
 
