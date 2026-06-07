@@ -50,5 +50,4 @@ This will:
 - Visualization Outputs: Generates triage charts and ranked scan tables for clear interpretation
 
 ## File Structure Diagram
-<img width="545" height="694" alt="file_structure" src="https://github.com/user-attachments/assets/67ef4cde-a1d6-4a28-a714-c5111fd89f8a" />
-
+<img width="543" height="696" alt="file structure diagram" src="https://github.com/user-attachments/assets/7c24a11e-4fca-4f2c-b22f-f1240c4602af" />
