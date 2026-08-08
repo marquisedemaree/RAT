@@ -10,8 +10,6 @@ These instructions will help you run RAT locally for demo and evaluation.
 - Git
 - Python 3.10+
 
-Not sure if you meet these requirements? Follow this guide: https://github.com/marquisedemaree/prerequisites/blob/main/README.md
-
 ### Installation
 From the command line:
 
